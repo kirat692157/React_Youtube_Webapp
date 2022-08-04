@@ -1,5 +1,5 @@
 .search-bar{
-    margin: 20px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -16,6 +16,10 @@
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-size-adjust: 20px;
+    font-size: large;
 }
 
 .list-group-item{
@@ -23,10 +27,26 @@
 }
 
 .list-group-item:hover{
-    background-color: black;
+    background-color: #eee;
 }
 
-.main{
-    background-color: black;
+.suggested-media-title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: small;
 }
 
+.Search{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.top {
+    margin: 30px 0;
+    display: inline;
+    flex-direction: row;
+    justify-content:stretch;
+}
